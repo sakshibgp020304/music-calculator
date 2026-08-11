@@ -1,6 +1,7 @@
 const display = document.getElementById("display");
 const music = document.getElementById("music");
 
+// Calculator
 function addValue(value) {
     if (display.value === "0") {
         display.value = value;
@@ -33,6 +34,7 @@ function calculate() {
     }
 }
 
+// Music
 function playMusic() {
     music.play();
 }
